@@ -1,0 +1,268 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: #0f1111;
+}
+
+/* HEADINGS AND TITLES */
+
+.primary-heading {
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.secondary-heading {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.secondary-heading a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.tertiary-heading {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* TEXT */
+
+.text-sm {
+  font-size: 12px;
+  line-height: 1.3;
+  color: #0b0c0c;
+}
+
+.text-md {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.text-light {
+  color: #565959;
+}
+
+.text-blue {
+  color: #2162a1;
+}
+
+.text-cursor {
+  cursor: pointer;
+}
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 29px;
+  font-size: 14px;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transition: all 0.3s;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #0f1111;
+}
+
+.btn-sign-up,
+.btn-primary {
+  background-color: #ffd814;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+.btn-sign-up:hover,
+.btn-primary:hover {
+  background-color: #f7ca00;
+}
+
+.btn-secondary {
+  background-color: #ffa41c;
+  border-radius: 100px;
+  /* REMOVE */
+}
+
+.btn-secondary:hover {
+  background-color: #fa8900;
+}
+.btn-outline {
+  justify-content: start;
+  border: 1px solid #0f1111;
+  border-radius: 8px;
+  padding: 0 8px;
+}
+
+.btn-outline:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.btn-text-center {
+  justify-content: center;
+}
+
+.btn-width-auto {
+  width: auto;
+}
+
+.text-bolded {
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-danger {
+  color: rgb(177, 39, 4);
+}
+/* Genaral Link */
+.link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #2162a1;
+}
+.link-underlined {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #2162a1;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #0c3353;
+}
+
+.icon-small {
+  font-size: 19px;
+}
+
+/* border-bottom */
+.border-b-1 {
+  display: block;
+  border-bottom: 1px solid #dfe2e2;
+}
+
+.shipping-info-table td:first-child {
+  padding-right: 10px;
+}
+.shipping-info-table td {
+  line-height: 1.2;
+}
+
+.p-4 {
+  padding: 4px;
+}
+.pb-12 {
+  padding-bottom: 12px;
+}
+.mb-4 {
+  margin-bottom: 4px;
+}
+.mb-8 {
+  padding-bottom: 8px;
+}
+
+.mt-2 {
+  margin-top: 2px;
+}
+.mt-8 {
+  margin-top: 8px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-12 {
+  margin-top: 12px;
+}
+.mt-14 {
+  margin-top: 14px;
+}
+.mb-14 {
+  margin-bottom: 14px;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+.pb-14 {
+  padding-bottom: 14px;
+}
+
+.mt-18 {
+  margin-top: 18px;
+}
+
+.text-bolded {
+  font-weight: 600;
+}
+
+.td-right {
+  padding: 3px 0 3px 3px;
+}
+.td-left {
+  padding: 3px 3px 3px 0;
+}
+.td-top-right {
+  padding: 0 0 3px 3px;
+}
+.td-top-left {
+  padding: 0 3px 3px 0;
+}
+.td-bottom-right {
+  padding: 3px 0 0 3px;
+}
+.td-bottom-left {
+  padding: 3px 3px 0 0;
+}
+
+/* Orderedand Unordered List */
+
+.unordered-list {
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.list-item {
+}
+
+.d-block {
+  display: block;
+}
+
+.btn-text {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #2162a1;
+}
+.btn:disabled {
+  background-color: grey;
+}
+
+.d-block {
+  display: block;
+}
+
+.order-container {
+  padding: 40px;
+  text-align: center;
+}
