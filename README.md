@@ -36,6 +36,6 @@ An Amazon-like e-commerce web application featuring user authentication, product
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/amazon-clone.git
+   git clone https://github.com/MatomeGabriel/amazon-clone.git
    cd amazon-clone
    ```
