@@ -71,3 +71,27 @@ Clone the repository:
 ```bash
 git clone https://github.com/MatomeGabriel/amazon-clone.git
 cd amazon-clone
+```
+
+Install dependencies:
+```bash
+npm install
+```
+
+
+Run the development server:
+```bash
+npm start
+```
+
+## 🎯 Live Demo
+https://gm-amazon-clone.netlify.app
+
+🏷 Badges
+https://img.shields.io/badge/React-18-blue
+https://img.shields.io/badge/Firebase-Backend-orange
+https://img.shields.io/badge/Stripe-Payments-purple
+https://img.shields.io/badge/License-MIT-green
+
+##📜 License
+This project is licensed under the MIT License.
