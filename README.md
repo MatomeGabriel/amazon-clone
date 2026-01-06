@@ -1,25 +1,27 @@
 
 # Amazon Clone 🛒
 
-An Amazon-like e-commerce web application featuring user authentication, product browsing, shopping cart functionality, and payment processing using **React**, **Firebase**, and **Stripe**.
+An Amazon-like e-commerce web application featuring **user authentication**, **product browsing**, **shopping cart functionality**, and **secure payment processing** using **React**, **Firebase**, and **Stripe**.
+
+---
+
+## 📌 Table of Contents
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Screenshots](#-screenshots)
+- [Setup & Installation](#-setup--installation)
+- [Folder Structure](#-folder-structure)
+- [Live Demo](#-live-demo)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
 ## 🚀 Features
-- **User Authentication**: Sign-up, log-in, and log-out using Firebase Authentication.  
-  ![Sign-In Page](https://github.com/user-attachments/assets/8cd4fb6d-e220-45ba-9f9f-8422e016b871)  
-  ![Sign-Up Page](https://github.com/user-attachments/assets/d9ceea2a-0adb-41c5-b0df-ab524eb27739)
-
-- **Product Browsing**: View products fetched in real-time from DummyJSON.  
-  ![Home Page](https://github.com/user-attachments/assets/8093cdc5-a662-4686-aeba-d62b32b11e12)  
-  ![Products Page](https://github.com/user-attachments/assets/50d78f2c-f8a4-407a-b194-00b964644d6e)
-
-- **Shopping Cart**: Add/remove products to/from the cart.  
-  ![Cart Page](https://github.com/user-attachments/assets/e6462d02-5716-47db-a360-372530e41709)
-
-- **Secure Payment Processing**: Integrated with Stripe API.  
-  ![Checkout Page](https://github.com/user-attachments/assets/2b63e63d-3782-4b8a-b1c5-56d86bb6dbea)
-
+- **User Authentication**: Sign-up, log-in, and log-out using Firebase Authentication.
+- **Product Browsing**: Real-time product data fetched from DummyJSON.
+- **Shopping Cart**: Add/remove products to/from the cart.
+- **Secure Payment Processing**: Stripe API integration.
 - **Order Tracking** *(Feature to add)*
 
 ---
@@ -28,8 +30,7 @@ An Amazon-like e-commerce web application featuring user authentication, product
 
 ### **Frontend**
 - React with Hooks and Context API for state management.
-- React Router for routing.  
-  ![Home Page with Products Added](https://github.com/user-attachments/assets/2be150c7-8c8c-4c28-98b0-6ac5e694a758)
+- React Router for routing.
 
 ### **Backend**
 - Firebase Firestore for storing user and order data.
@@ -42,7 +43,29 @@ An Amazon-like e-commerce web application featuring user authentication, product
 
 ---
 
-## 🔧 Setup and Installation
+## 📸 Screenshots
+
+### **Authentication**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8cd4fb6d-e220-45ba-9f9f-8422e016b871" width="45%" alt="Sign-In Page"/>
+  <img src="https://github.com/user-attachments/assets/d9ceea2a-0adb-41c5-b0df-ab524eb27739" width="45%" alt="Sign-Up Page"/>
+</p>
+
+### **Product Browsing**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8093cdc5-a662-4686-aeba-d62b32b11e12" width="45%" alt="Home Page"/>
+  <img src="https://github.com/user-attachments/assets/50d78f2c-f8a4-407a-b194-00b964644d6e" width="45%" alt="Products Page"/>
+</p>
+
+### **Cart & Checkout**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e6462d02-5716-47db-a360-372530e41709" width="45%" alt="Cart Page"/>
+  <img src="https://github.com/user-attachments/assets/2b63e63d-3782-4b8a-b1c5-56d86bb6dbea" width="45%" alt="Checkout Page"/>
+</p>
+
+---
+
+## 🔧 Setup & Installation
 
 Clone the repository:
 ```bash
