@@ -87,11 +87,14 @@ npm start
 ## 🎯 Live Demo
 https://gm-amazon-clone.netlify.app
 
-🏷 Badges
-https://img.shields.io/badge/React-18-blue
-https://img.shields.io/badge/Firebase-Backend-orange
-https://img.shields.io/badge/Stripe-Payments-purple
+## 🏷 Badges
+
+## 🏷 Badges
+![React](https://img.shields.io/badge/React-18-blue)
+![Firebase](https://img.shields.io/badge/Firebase-Backend-orange)
+![dge/Stripe-Payments-purple
 https://img.shields.io/badge/License-MIT-green
+
 
 ##📜 License
 This project is licensed under the MIT License.
